@@ -10,7 +10,26 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+<form action="action="/submit-application" method="post"">
+	<label for="Name">Name</label>
+	<input type="text" id="name"  name="Name" placeholder="Name" required  minlength="3" maxlength="50">
+	<br><br>
+	
+	<label for="Portfolio">Portfolio</label>
+	<input type="url" required id="portfolio">
+	<br><br>
 
+	<label for="Favorite Color">Favorite Color</label>
+	<input type="color" id="favColor">
+	<br><br>
+
+	<label for="Likeness">Likeness</label>
+	<input type="range" id="likensess"  min="1" max="100">
+	<br><br>
+
+	<input type="submit" value="Submit">
+	
+</form>
 </body>
 
 </html>
